@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first Web Form</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+
+<body>
+
+    <h1>This is my first HTML5 Web Form! Whish me luck...</h1>
+    <a href="index.html">Go back to Index</a>
+
+    <form action="">
+
+        <img src="mk.jpg" alt="banner">
+
+        <label for="date">Select today's date and time:</label>
+        <input type="date" name="date" id="date">
+        <input type="time" name="time" id="time">
+
+        <p>Select your gender:</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male" class="label">Male</label> <br>
+        <input type="radio" id="female" name="gender">
+        <label for="female" class="label">Female</label>
+
+        <p>Select your favourite Mortal Kombat character:</p>
+        <input type="checkbox" id="subzero" name="character">
+        <label for="subzero" class="label">Sub Zero (the best one)</label> <br>
+        <input type="checkbox" id="scorpion" name="character">
+        <label for="scorpion" class="label">Scorpion</label> <br>
+        <input type="checkbox" id="goro" name="character">
+        <label for="goro" class="label">Goro</label>
+
+        <p>Select the color that suits you best:</p>
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color">
+
+        <fieldset>
+            <legend>Enter your contact info:</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="contact" placeholder="Enter your email..." required>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="contact" placeholder="Enter your phone number..." required>
+        </fieldset>
+
+        <label for="dropdown">Select your hero:</label>
+        <select name="dropdown" id="dropdown">
+            <option value="jax">Jax</option>
+            <option value="subzero">Sub Zero</option>
+            <option value="reptile">Reptile</option>
+        </select> <br>  
+
+        <label for="text">Finally, tell us why Sub Zero is the best MK character ever:</label> <br><br>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea> <br>
+
+        <div>
+            <label for="submit">Submit the form when you're ready!</label> <br><br>
+            <input type="submit" id="submit" name="submit">
+        </div>
+
+    </form>
+
+    <p>Initial form build is a semi-success. Still need to learn how to change basic icons from custom images + form validation formatting. Also repair < select > options background color. To be continued...</p>
+
+</body>
+
+</html>
